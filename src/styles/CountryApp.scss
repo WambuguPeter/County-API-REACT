@@ -1,0 +1,46 @@
+// CountryApp.scss
+
+.App {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: background-color 0.3s ease-in-out;
+  
+    &.dark-theme {
+      background-color: #333;
+      color: #fff;
+    }
+  
+    header {
+      background-color: #2196f3;
+      padding: 30px;
+      color: #fff;
+      text-align: center;
+      padding-bottom: 30px;
+      
+      h1 {
+        font-size: 2rem;
+        margin: 0;
+      }
+  
+      button {
+        background-color: #ffeb3b;
+        color: #333;
+        padding: 8px 16px;
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        border: none;
+        width: auto;
+        border-radius: 4px;
+        outline: none;
+        transition: background-color 0.3s ease-in-out;
+  
+        &:hover {
+          background-color: #ffc107;
+        }
+      }
+    }
+  }
+  
